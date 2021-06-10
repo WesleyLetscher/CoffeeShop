@@ -1,0 +1,201 @@
+body {
+    font-family: 'open sans';
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'open sans';
+    font-size: 60px;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 33px;
+    font-weight: 100;
+    font-family: 'open sans';
+}
+
+.text {
+    font-size: 18px;
+    font-family: 'open sans';
+}
+
+.icon {
+    height: 30px;
+}
+
+header {
+    background-color: #FFF0ED;
+}
+
+main {
+    width: 100%;
+}
+
+.navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.logo {
+    display: inline;
+}
+
+.navigation-menu {
+    font-size: 50px;
+    font-weight: 100;
+    display: inline;
+    margin: 2px;
+    text-decoration: none;
+    color: #383428;
+    font-family: 'open sans';
+}
+
+.link-tag {
+    list-style-type: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    line-height: 50px;
+}
+
+.links {
+    Margin-right: 500px;
+    padding-right: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    font-family: 'Open Sans';
+}
+
+.link-nav {
+    text-decoration: none;
+    color: #393939;
+    margin-right: 10px;
+}
+
+.link-nav:hover {
+    opacity: 80%;
+}
+
+.navColor {
+    color: #5BACC3;
+}
+
+.sub-nav {
+    background-image: url("/Users/wesle/OneDrive/Desktop/Wesley-Letscher-Coffeeshop/AssetsFolder/Images/coffee-circle.jpg");
+    width: 100%;
+    height: 970px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.sub-nav1 {
+    font-family: 'open sans';
+    width: 280px;
+    height: 200px;
+    background-color: #383428;
+    color: #fff;
+    text-align: center;
+    line-height: 2px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 770px;
+}
+
+.text {
+    font-size: 60px;
+    margin-bottom: 150px;
+    font-family: 'open sans'
+}
+
+.sub-nav2 {
+    height: auto;
+    background-color: #393939;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.sub-nav3 {
+    color: #fff;
+    text-decoration: none;
+    width: 4px;
+}
+
+.sub-nav4 {
+    list-style-type: none;
+    display: inline;
+    margin: 2% 2% 2% 0;
+}
+
+.subdiv {
+    width: 4px;
+    color: #5BACC3;
+    padding-right: 5px;
+    font-weight: bolder;
+}
+
+.menu {
+    background-color: #FFF0ED;
+}
+
+.menu2 {
+    background-color: #F7F7F7;
+}
+
+.section-title {
+    padding-top: 2%;
+    color: #464646;
+    text-align: center;
+    margin: none;
+}
+
+.menu-item {
+    margin: 2vh;
+    text-align: center;
+}
+
+.menu-text {
+    font-size: 1.125rem;
+    font-style: italic;
+    width: 50%;
+    height: 18%;
+    border: 4px;
+    offset: 15px;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    margin: none;
+}
+
+.menu-prices {
+    color: #5BACC3;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-family: 'open sans';
+    text-align: center;
+    margin: none;
+}

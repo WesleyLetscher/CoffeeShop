@@ -1,0 +1,441 @@
+header {
+    background-color: #FFF0ED;
+}
+
+body {
+    font-family: 'open sans';
+    font-weight: 400;
+    margin: 0 auto;
+    width: 100%;
+}
+
+p {
+    font-size: 1.31rem;
+}
+
+h1 {
+    font-size: 3.75rem;
+    font-weight: 100;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 3.75rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2.06rem;
+    font-weight: 100;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+.home-nav {
+    background-color: #FFF0ED;
+    padding: 1.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.home-nav__icon {
+    height: 3.125rem;
+}
+
+.home-nav__head {
+    font-weight: 100;
+    font-size: 3.125rem;
+}
+
+.home-nav___links-link {
+    font-size: 1.31rem;
+}
+
+.home-nav__links {
+    height: 1.875rem;
+    width: 100%;
+    margin: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.home-nav__links-link--shop {
+    color: #58ACC3!important;
+    font-weight: 700;
+}
+
+.home-nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.home-nav ul li a {
+    color: #464646;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.hero {
+    height: 530px;
+    width: 1200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.hero__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-right: 300px;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+.hero__pr {
+    width: 400px;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.hero__image-coffeeBag {
+    height: 548px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 70px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    width: 180px;
+    height: 55px;
+    border: 2px solid black;
+    font-size: 1.31rem;
+    position: relative;
+    z-index: 1;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    bottom: -8px;
+    left: 7px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.button__container {
+    position: relative;
+    width: 100px;
+}
+
+.button-offset {
+    width: 180px;
+    height: 55px;
+    position: absolute;
+    background-color: #58ACC3;
+    bottom: -8px;
+    left: 7px;
+}
+
+.ourProducts {
+    background-color: #F7F7F7;
+    margin: 0;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.ourProducts__head {
+    padding-top: 60px;
+}
+
+.ourProducts__card-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.ourProducts__card {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    -webkit-box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.ourProducts__images {
+    height: 238px;
+    padding: 25px;
+}
+
+.ourProducts__goods {
+    padding: 20px 0 0 20px;
+    width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.ourProducts__cost {
+    color: #58ACC3;
+    font-size: 2.2rem;
+    margin: 0;
+    padding: 0 20px 20px 0;
+    font-weight: bold;
+}
+
+.ourProducts__total {
+    margin: 0;
+    padding: 5px 0 0 20px;
+}
+
+.ourProducts__card-description {
+    background-color: #FFF0ED;
+    height: 110px;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@-webkit-keyframes can-rotate {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes can-rotate {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.ourProducts__images-tiltedcan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    padding: 100px 155px;
+}
+
+.ourProducts__images-tiltedcan:hover {
+    -webkit-animation: can-rotate 2s infinite linear;
+    animation: can-rotate 2s infinite linear;
+}
+
+.ourProducts__images-tiltedcan-background {
+    width: 435px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.ourProducts__images-tiltedcan-style {
+    width: 435px;
+    height: 435px;
+    border: 4px solid #58ACC3;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+
+.button__container-viewall {
+    margin: 0 auto;
+}
+
+.section-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 120px;
+}
+
+.section-two__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-right: 200px;
+}
+
+.section-two__svgBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.313rem 0;
+}
+
+.section-two__svg {
+    height: 3.125rem;
+    width: 3.125rem;
+    margin: 0 7.5rem 1.875rem 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.section-two__pr {
+    width: 25rem;
+}
+
+.section-two__can {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+}
+
+@-webkit-keyframes discount-flash {
+    to {
+        background-color: #58ACC3;
+    }
+}
+
+@keyframes discount-flash {
+    to {
+        background-color: #58ACC3;
+    }
+}
+
+.discountSection {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.85);
+    font-size: 2.8rem;
+    color: white;
+    text-align: center;
+    padding: 3.125rem 4.375rem;
+    margin: 0 auto;
+    margin-bottom: 6.25rem;
+    -webkit-animation: discount-flash 2.5s infinite ease-in-out alternate;
+    animation: discount-flash 2.5s infinite ease-in-out alternate;
+}
+
+#discount-code {
+    font-weight: 700;
+}
+
+footer {
+    background-color: #FFF0ED;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+footer div {
+    padding: 80px;
+    margin: 0 auto;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+footer div p {
+    margin: 0 auto;
+}
+
+.footer__head {
+    font-family: "open sans";
+    font-weight: 100;
+    font-size: 2.06rem;
+    padding: 0 0 30px 0;
+}
+
+.footer__icon {
+    height: 7.5rem;
+    padding-top: 1.25rem;
+}
+
+.footer__icon2 {
+    padding-top: 9.375rem;
+}
+
+.footer__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+}
+
+.footer__day {
+    font-weight: bold;
+}
+
+.footer__social-icon {
+    height: 3.125rem;
+    padding: 0 0.5rem;
+}
